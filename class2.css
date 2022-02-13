@@ -70,8 +70,99 @@ body{
     background-color:orange;
     padding: 5px;
 }
-
-.tamp{
-    
-   */
+.paragraph p{
+    background-color:orange;
 }
+.paragraph {
+    
+}
+.break{
+    float: left;
+    width: 100%; 
+}
+.footer{
+    line-height:1.5;
+    font-family: roboto;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background:rgb(46, 45, 45);
+    padding :10px 0px;
+}
+.container{
+    background:rgb(46, 45, 45);
+    max-width: 1173px;
+    margin:auto;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    background:rgb(46, 45, 45);
+    max-width: 24%;
+    flex-basis: 24%;
+    padding:5px;
+
+}
+.footer-col h4{
+    background:rgb(46, 45, 45);
+    color: white;
+    font: size 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    position: relative;
+}
+/* .footer-col ul li:not(:last-child){
+    background:rgb(46, 45, 45);
+} */
+.footer-col ul li a{
+    background:rgb(46, 45, 45);
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight:300;
+    display : block;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    position: relative;
+
+}
+.footer-col ul li a:hover{
+    color:red;
+    padding-left: 6px;
+
+}
+
+ul{
+    background:rgb(46, 45, 45);
+    list-style: none;
+
+}
+.footer-col .social-icon{
+    background:rgb(46, 45, 45);
+}
+.footer-col .social-list a{
+    display: flex;
+    height:44px;
+    justify-content: center;
+    box-sizing: border;
+    border-radius:50%;
+    text-decoration: none;
+    transition:all 0.5s ease;
+}
+.footer-col .social-icon a i{
+    background:rgb(46, 45, 45);
+    color:white;
+    font-size: 32px;
+    transition :all 0.5s ease;
+    padding :10px;
+}
+.footer-col .social-icon a i:hover{
+    color :rgb(236, 10, 10);
+    padding-left: 6px;
+}
+
