@@ -1,68 +1,91 @@
-<html>
-    <head><title>Class 2</title></head>
-    <body>
-        <style>
-            .button-class {
-                font-size: 30px;
-            }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 2</title>
+    <link rel="stylesheet" href="class2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<>
+    <!-- nav start -->
+    <div class ="nav-bar"> 
+          <div class="Banner" >
+                <img src="image/IIUClogo.png" alt = "IIUC">
+         </div>
         
-            .table-class {
-                width: 50%;
-                margin-top: 10px;
-        
-            }
-            #content {
-                margin-top: 5px;
-            }
-        </style>
-        <div>
-            <img style="width =50% ;margin-top: 10px;" src="image/IIUClogo.png" width="1000">
+         <div class="Manu-bar">
+             <a href="#">HOME</a>
+             <a href="#">Page1</a>
+             <a href="#">Page2</a>
+             <a href="#">Page3</a>
+             <a href="#">Page4</a>
+             <a href="#">FAQ</a>
+         </div>
         </div>
+    <!-- nev end -->
+    
+    <!-- sort Note -->
+    <p>This is my first website .I am learning webdesign like a new commer .<br>
+        Hopefully This course push me to do some things amazing.</p>
+
+    <!-- Table -->
+    <table class="table-class" cellspacing="50" border="4" style="border-collapse: collapse">
+       <tr>
+           <th>Department</th>
+           <th>University</th>
+           <th>Vacancy</th>
+       </tr>
+        <tr>
+            <td style="text-align: center">1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>CSE</td>
+            <td>EEE</td>
+            <td rowspan="2"> 120</td>
+        </tr>
+        <tr>
+            <td>IIUC</td>
+            <td>PCIU</td>
+    
+        </tr>
+        <tr>
+            <td align="center" colspan="2">Total :</td>
+            <td>240</td>
+        </tr>
+    </table>
+
+    <!-- Partition 1 Input box + submit Button -->
+    <div class="form">
+        <input placeholder="Enter student name" type="text" name="studentName"><br>
+        <input placeholder="Enter Student ID" type="text" name="studentId"><br>
+
+        <!-- selection box -->
+        <select name="department">
+            <option disabled selected value="Select Department">Select Department</option>
+            <option>CSE</option>
+            <option>CCE</option>
+            <option>EEE</option>
+        </select>
+
+        <!-- submit button -->
+        <button class="button-class" name="formSubmit" value="Submit">Submit</button>
+    </div>
+
+    <!-- Partition 2 :Paragreaph -->
+    <div class="paragraph">
         <p>This is my first website .I am learning webdesign like a new commer .<br>
-            Hopefully This course push me to do some things amazing.</p>
-        <table class="table-class" cellspacing="50" border="4" style="border-collapse: collapse">
-           <tr>
-               <th>Department</th>
-               <th>University</th>
-               <th>Vacancy</th>
-           </tr>
-            <tr>
-                <td style="text-align: center">1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>CSE</td>
-                <td>EEE</td>
-                <td rowspan="2"> 120</td>
-            </tr>
-            <tr>
-                <td>IIUC</td>
-                <td>PCIU</td>
-        
-            </tr>
-            <tr>
-                <td align="right" colspan="2">Total :</td>
-                <td>240</td>
-            </tr>
-        </table>
-
-        <div id="" class="form" style="width: 40%;float: left;background-color:red" >
-            <input placeholder="Enter student name" type="text" name="studentName"><br>
-            <input placeholder="Enter Student ID" type="text" name="studentId"><br>
-            <select name="department">
-                <option disabled selected value="">Select Department</option>
-                <option>CSE</option>
-                <option>CCE</option>
-                <option>EEE</option>
-            </select><br>
-            <button class="button-class" name="formSubmit" value="Submit">Submit</button>
-        </div>
-        <div id="" class="form" style="width: 40% ; float: left;background-color:green;margin: 0px;">
-            <p>This is my first website .I am learning webdesign like a new commer .<br>
-               Hopefully This course push me to do some things amazing.<br>
-               Department of Computer Science and Engineering </p>
-        </div>
-
-    </body>
+           Hopefully This course push me to do some things amazing.<br>
+           Department of Computer Science and Engineering </p>
+    </div>
+  
+</body>
 </html>
