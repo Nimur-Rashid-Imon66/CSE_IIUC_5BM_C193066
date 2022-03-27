@@ -1,6 +1,4 @@
-*{
-    background-color: white;
-}
+
 body{
     margin:10px;
     padding:5px;
@@ -16,8 +14,6 @@ body{
 .Banner{
     width:100%;
     text-align: left;
-    margin-top: px;
-    
 }
 .nav-bar a{
     float: left;
@@ -54,6 +50,34 @@ body{
 .button-class:hover {
     background-color:#46a049;
 }
+.card .table .btn_signin{
+    background-color: blue;
+    color: white;
+    padding:15px 20px;
+    cursor:pointer;
+    font-size: 15px;
+    border-radius :15px;
+}
+.card .table .btn_signin:hover{
+    background-color:rgb(93, 93, 243)
+}
+.sign_up{
+    float  :center;
+    padding:5px;
+}
+.sign_up .btn_signup{
+    color: white;
+    border: none;
+    background-color: #034e33;
+    padding:15px 28px;
+    cursor:pointer;
+    font-size: 15px;
+    border-radius :10px;
+    margin-left: 38%;
+}
+.sign_up .btn_signup:hover {
+    background-color:#46a049;
+}
 .form {
     margin-top: 5px;
     width: 23%;
@@ -76,13 +100,28 @@ body{
 .paragraph {
     
 }
+
+.row{
+    width:100%;
+}
+.card-body{
+    background-color:green;
+}
+.table .btn{
+    background-color:purple;
+}
+
+
+
+
+
 .break{
     float: left;
     width: 100%; 
 }
 .footer{
     line-height:1.5;
-    font-family: roboto;
+    font-family: 'Redressed', cursive;
     display: block;
     margin: 0px;
     padding: 0px;
@@ -106,12 +145,13 @@ body{
     max-width: 24%;
     flex-basis: 24%;
     padding:5px;
+    font-size: 10px;
 
 }
 .footer-col h4{
     background:rgb(46, 45, 45);
     color: white;
-    font: size 28px;
+    font size: 17px;
     margin-bottom: 15px;
     font-weight: bold;
     position: relative;
@@ -123,7 +163,7 @@ body{
     background:rgb(46, 45, 45);
     color: white;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 15px;
     font-weight:300;
     display : block;
     text-transform: uppercase;
@@ -165,4 +205,3 @@ ul{
     color :rgb(236, 10, 10);
     padding-left: 6px;
 }
-

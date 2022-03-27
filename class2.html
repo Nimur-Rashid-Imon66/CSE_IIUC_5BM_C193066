@@ -91,20 +91,87 @@
     </div>
 
     <!-- Bootstrap Table start -->
-     
-   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h3>Sign In</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered table-hover table-striped">
+                            <tr>
+                                <td>Username</td>
+                                <td>
+                                    <input class="form-control" type="text" name="stuemail" id="stuemail" placeholder="Enter your Email or Username">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Password</td>
+                                <td>
+                                    <input class="form-control" type="password" name="pass" id="pass" placeholder="Enter your Password">
+                                </td>
+                            </tr>
+                           
+                            <tr rowspan="2">
+                                <td colspan="2" align ="center">
+                                    <input class="btn btn_signin" value="Sign In" type="submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div style="background-color: orange" class="Second col-md-6" >
+                <h3>Sign Up</h3>
+                <div class="row">
+                    <div class="Name_section row">
+                        <div class="col-md-6">
+                            <h4>First Name</h4>
+                            <input class="form-control" type="text" name="firstName" id="first Name" placeholder="Enter your first name">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Last Name</h4>
+                            <input class="form-control" type="text" name="lastName" id="lastName"  placeholder="Enter your last name">
+                        </div>
+                    </div>
+
+                    <div class="Email-section col-md-12">
+                        <h4>Email</h4>
+                        <input class="form-control" type="email" name="stuemail" id="stuemail"  placeholder="Enter your email">
+                    </div>
+                    <div class="Password-section row">
+                       
+                            <div class="pass col-md-6">
+                            <h4>Password</h4>
+                            <input class="form-control" type="password" name="password" id="password"  placeholder="Enter a password">
+                            <p style ="color : blue; " >  Password length at least 8 digit </p>
+                            </div>
+
+                            <div class="con-pass col-md-6">
+                                <h4>Confirm Password</h4>
+                                <input class="form-control" type="password" name="con_password" id="con_password"  placeholder="Enter password again">
+                            </div>
+                    </div>
+
+                    <div class="sign_up">
+                        <input class="btn btn_signup " value="Sign Up" type="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Bootstrap Table End -->
 
 
-
-
-
-
-
+    
 
 
     <!-- Footer start -->
+    
     <div class="break">
         <footer class="footer">
             <div class="container">
@@ -183,7 +250,7 @@
                 </div>
             </div>
         </footer>
-    </div>
+    </div> 
     <!-- Footer End -->
 
 
