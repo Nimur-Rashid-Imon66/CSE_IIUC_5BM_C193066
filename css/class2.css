@@ -139,6 +139,10 @@ body{
     display:flex;
     flex-wrap: wrap;
 }
+.java-table{
+    background:rgb(46, 45, 45);
+    color : beige
+}
 
 .footer-col{
     background:rgb(46, 45, 45);
